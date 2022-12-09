@@ -2,7 +2,7 @@ package com.company;
 
 import java.math.BigDecimal;
 
-public class AccountDto {
+public class AccountDTO {
     private int id;
     private String name;
     private String surname;

@@ -2,9 +2,9 @@ package com.company;
 
 import java.util.Date;
 
-public class BlikDto {
+public class BlikDTO {
     private String code;
-    AccountDto accountDto
+    AccountDTO accountDto
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date expirationDate;
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
@@ -19,11 +19,11 @@ public class BlikDto {
         this.code = code;
     }
 
-    public AccountDto getAccountDto() {
+    public AccountDTO getAccountDto() {
         return accountDto;
     }
 
-    public void setAccountDto(AccountDto accountDto) {
+    public void setAccountDto(AccountDTO accountDto) {
         this.accountDto = accountDto;
     }
 

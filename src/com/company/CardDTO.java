@@ -2,8 +2,8 @@ package com.company;
 
 import java.util.Date;
 
-public class kartaDto {
-    AccountDto accountDto;
+public class CardDTO {
+    AccountDTO accountDto;
     private int cvv;
     private String number;
 
@@ -12,11 +12,11 @@ public class kartaDto {
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date createDate;
 
-    public AccountDto getAccountDto() {
+    public AccountDTO getAccountDto() {
         return accountDto;
     }
 
-    public void setAccountDto(AccountDto accountDto) {
+    public void setAccountDto(AccountDTO accountDto) {
         this.accountDto = accountDto;
     }
 
